@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Doloribus corrupti, eius quasi esse ducimus eveniet autem optio?
+    Reiciendis facilis ea, voluptatum eaque cum nulla quaerat consectetur
+    dolor et velit harum! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Excepturi natus aut ratione labore recusandae, repellendus atque nihil aspernatur
+    velit cupiditate soluta hic nobis accusantium aliquid minima nulla. Nisi, aliquid
+    laboriosam!
+    <button onclick="changeText()">Clique aqui para alterar o texto!</button>
+    <p>Aqui vai aparecer alguma coisa...</p>
+
+    <script>
+        function changeText() {
+            const name = prompt("Digite seu nome");
+            const alteracao = document.getElementsByTagName("p")[0]; // Acesso ao primeiro elemento da lista
+            alteracao.innerText = `E ai ${name}! Você está deixando seu site dinâmico!`; // Corrigindo a propriedade innerText
+        }
+    </script>
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
